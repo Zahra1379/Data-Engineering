@@ -6,6 +6,7 @@ This is my data engineering project named "CryptoDataAnalyser" in Fall 1400
 # About The Project
 
 In this project, we communicate with an Internet resource such as an online exchange, and after taking data and analyzing that data, we finally show the results to the user.This project consists of three services.
+
 First service (CoinMarketCap): This service sends a request to an online exchange with a specific frequency, then receives a series of data, and after receiving the data, has a service that works with Kafka and puts this data on Kafka.  So he takes the data with a certain frequency and puts it on Kafka. 
 
 Second service (Persister): This service listens to Kafka, every time he gets data, puts it in a list, and when the size of this list exceeds 100, removes 100 to 100 of the data from the list and puts it in files called crypt.bin (  Saves in jason format) and the job in this service checks every half hour if something has been written in the last half hour or not.If he had not written, it would have written whatever data was in the list, and would not have waited for it to become 100.  It has an api that when it is called, it reads and returns the files it has and calls this api to the third service. 
