@@ -21,11 +21,12 @@ To do this project, you need to install [intelij](https://www.jetbrains.com/idea
 # How To Run
 
 After installing and doing the above, we must enter the following commands in the terminal, respectively, to activate zookeeper and kafka.you can read about [zookeeper](https://zookeeper.apache.org/doc/current/index.html)
-1:
+
+First Command:
 ```
 zookeeper-server-start.bat ../../config/zookeeper.properties 
 ```
-2:
+Second Command:
 ```
 kafka-server-start.bat ../../config/server.properties
 ```
