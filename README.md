@@ -18,10 +18,11 @@ After installing and doing the above, we must enter the following commands in th
 
 ```
 zookeeper-server-start.bat ../../config/zookeeper.properties 
+```
 
 ```
 kafka-server-start.bat ../../config/server.properties
-
+```
 then we can continue working in intelij.Services can be run by running application classes that have main.
 
 #Contact
