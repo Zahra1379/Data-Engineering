@@ -1,0 +1,13 @@
+server:
+  port: 8086
+
+spring:
+  application:
+    name: ingester
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      properties:
+        max:
+          request:
+            size: 32000000

@@ -1,0 +1,13 @@
+server:
+  port: 8085
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: persister
+      max-poll-records: 200
+      properties:
+        max.poll.interval.ms: 240000
+      enable-auto-commit: true
+    listener:
+      type: batch
