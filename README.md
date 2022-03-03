@@ -31,7 +31,7 @@ Second Command:
 ```
 kafka-server-start.bat ../../config/server.properties
 ```
-then we can continue working in intelij.Services can be run by running application classes that have main.
+then we can continue working in intelij.Services can be run by running application classes that have main. :blush:
 
 
 ## Contact
