@@ -16,11 +16,11 @@ To do this project, you need to install [intelij](https://www.jetbrains.com/idea
 **How To Run**
 After installing and doing the above, we must enter the following commands in the terminal, respectively, to activate zookeeper and kafka.you can read about [zookeeper](https://zookeeper.apache.org/doc/current/index.html)
 
-1.```
+```
 zookeeper-server-start.bat ../../config/zookeeper.properties 
 ```
 
-2.```
+```
 kafka-server-start.bat ../../config/server.properties
 ```
 then we can continue working in intelij.Services can be run by running application classes that have main.
