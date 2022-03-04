@@ -34,6 +34,12 @@ kafka-server-start.bat ../../config/server.properties
 then we can continue working in intelij.Services can be run by running application classes that have main. :blush:
 
 
+## License
+
+gnu general public license v3.0. See LICENSE.txt for more information.
+
+
+
 ## Contact
 
 Zahra - gmail: z.motamed321@gmail.com
