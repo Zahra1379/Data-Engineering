@@ -36,7 +36,7 @@ then we can continue working in intelij.Services can be run by running applicati
 
 ## License
 
-gnu general public license v3.0. See LICENSE.txt for more information.
+gnu general public license v3.0. See `LICENSE.txt` for more information.
 
 
 
